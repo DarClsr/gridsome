@@ -134,13 +134,13 @@ export default {
   },
   computed: {
     tagCover(){
-        return this.$page.tag.attributes.image.data.attributes.url
+        return this.$page.tag.attributes.image?.data?.attributes?.url||""
     },
     posts(){
       const tag=this.$page.tag
         const list= this.$page.posts.edges.filter(post=>{
           console.log(post.node,this.$page)
-          const {categories}=post.node.attributes
+          const {categories}=post?.node?.attributes
           return categories.data.find(c=>c.id==tag.id)?true:false;
         }).map(v=>{
           return {id:v.id,...v.node}
