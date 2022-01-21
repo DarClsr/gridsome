@@ -8,5 +8,12 @@ import "../static/asset/css/index.css"
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
+  Vue.mixins({
+    data(){
+      return {
+        beseUrl:process.env.GRIDSOME_API_URL
+      }
+    }
+  })
   Vue.component('Layout', DefaultLayout)
 }
