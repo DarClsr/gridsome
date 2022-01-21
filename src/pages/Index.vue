@@ -4,7 +4,7 @@
     <header
       class="masthead"
       :style="{
-        backgroundImage: 'url('+`${imgUrl+banner.url}`+')',
+        backgroundImage: cover,
       }"
     >
       <div class="container position-relative px-4 px-lg-5">
@@ -143,6 +143,9 @@ export default {
           };
         });
       };
+    },
+    cover(){
+        return "url("+`${this.imgUrl+this.banner.url}`+")"
     },
     banner() {
       const result = parseObj(this.$page.banner, true);
