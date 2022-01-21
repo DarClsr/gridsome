@@ -87,7 +87,7 @@ export default {
       return this.$page.post.attributes.author.data.attributes
     },
     postCover(){
-      return  this.baseUrl+this.$page.post.attributes.image.data.attributes.url
+      return  this.imgUrl+this.$page.post.attributes.image.data.attributes.url
     }
   },
 };

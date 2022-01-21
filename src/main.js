@@ -11,7 +11,8 @@ export default function (Vue, { router, head, isClient }) {
   Vue.mixin({
     data(){
       return {
-        beseUrl:process.env.GRIDSOME_API_URL
+        beseUrl:process.env.GRIDSOME_API_URL,
+        imgUrl:process.env.IMG_URL
       }
     }
   })

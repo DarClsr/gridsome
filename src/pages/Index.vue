@@ -4,7 +4,7 @@
     <header
       class="masthead"
       :style="{
-        backgroundImage: 'url('+`${beseUrl+banner.url}`+')',
+        backgroundImage: 'url('+`${imgUrl+banner.url}`+')',
       }"
     >
       <div class="container position-relative px-4 px-lg-5">

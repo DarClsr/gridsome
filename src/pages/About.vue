@@ -4,7 +4,7 @@
     <header
       class="masthead"
       :style="{
-        backgroundImage: 'url('+`${beseUrl+about.url}`+')',
+        backgroundImage: 'url('+`${imgUrl+about.url}`+')',
 
       }"
     >
