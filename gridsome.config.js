@@ -3,6 +3,7 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+console.log(process.env.GRIDSOME_API_URL)
 
 module.exports = {
   siteName: 'Gridsome',
