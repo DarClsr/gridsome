@@ -9,7 +9,7 @@ module.exports = {
   siteName: 'Gridsome',
   plugins: [
     {
-      use: '@gridsome/source-strapi',
+      use: 'gridsome-source-strapi-v4',
       options: {
         apiURL: process.env.GRIDSOME_API_URL,
         queryLimit: 1000, // Defaults to 100

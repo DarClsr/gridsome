@@ -1711,6 +1711,13 @@ axios@^0.19.0:
   dependencies:
     follow-redirects "1.5.10"
 
+axios@^0.21.1:
+  version "0.21.4"
+  resolved "https://registry.npmmirror.com/axios/download/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
+  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
+  dependencies:
+    follow-redirects "^1.14.0"
+
 babel-loader@8.0.5:
   version "8.0.5"
   resolved "https://registry.npmmirror.com/babel-loader/download/babel-loader-8.0.5.tgz#225322d7509c2157655840bba52e46b6c2f2fe33"
@@ -3919,6 +3926,11 @@ follow-redirects@1.5.10:
   dependencies:
     debug "=3.1.0"
 
+follow-redirects@^1.14.0:
+  version "1.14.7"
+  resolved "https://registry.npmmirror.com/follow-redirects/download/follow-redirects-1.14.7.tgz#2004c02eb9436eee9a21446a6477debf17e81685"
+  integrity sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==
+
 fontawesome@^5.6.3:
   version "5.6.3"
   resolved "https://registry.npmmirror.com/fontawesome/download/fontawesome-5.6.3.tgz#73f0b865fa2b0b384e69d531c05a02c643b72f95"
@@ -4327,6 +4339,15 @@ graphql@^14.4.2:
   integrity sha1-f6eagKab5KMcJ92oJNwE2sIDWnI=
   dependencies:
     iterall "^1.2.2"
+
+gridsome-source-strapi-v4@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.npmmirror.com/gridsome-source-strapi-v4/download/gridsome-source-strapi-v4-0.1.1.tgz#1165df76e22a18c4b41081d897bb6fc067d47dcb"
+  integrity sha512-xPglhINWc0ak7rgphvUVfcR/1/GIGIfQC+JjWeam8xDZVJKnQVtqFzLq8vZCCXn9Jg4Avq8JAH0p/qN5pWQcWw==
+  dependencies:
+    axios "^0.21.1"
+    lodash "^4.17.11"
+    pluralize "^7.0.0"
 
 gridsome@^0.7.0:
   version "0.7.23"
