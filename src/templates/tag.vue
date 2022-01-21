@@ -134,7 +134,7 @@ export default {
   },
   computed: {
     tagCover(){
-        return this.$page.tag.attributes.image?.data?.attributes?.url||""
+      return  (this.baseUrl+ this.$page.tag.attributes.image?.data?.attributes?.url)||""
     },
     posts(){
       const tag=this.$page.tag

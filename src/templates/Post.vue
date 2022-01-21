@@ -3,7 +3,9 @@
     <!-- Page Header-->
     <header
       class="masthead"
-      :style="{backgroundImage: 'url('+`http://localhost:1337${postCover}`+')'}"
+      :style="{
+        backgroundImage: 'url('+`${postCover}`+')',
+        }"
     >
       <div class="container position-relative px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -85,7 +87,7 @@ export default {
       return this.$page.post.attributes.author.data.attributes
     },
     postCover(){
-      return this.$page.post.attributes.image.data.attributes.url
+      return  this.baseUrl+this.$page.post.attributes.image.data.attributes.url
     }
   },
 };

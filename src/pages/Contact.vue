@@ -4,7 +4,7 @@
     <header
       class="masthead"
       :style="{
-        backgroundImage: 'url(' + `http://localhost:1337${contact.url}` + ')',
+        backgroundImage: 'url('+`${beseUrl+contact.url}`+')',
       }"
     >
       <div class="container position-relative px-4 px-lg-5">
