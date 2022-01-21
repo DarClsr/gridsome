@@ -8,11 +8,12 @@ import "../static/asset/css/index.css"
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
+  console.log(process.env.GRIDSOME_IMG_URL,"lllll")
   Vue.mixin({
     data(){
       return {
         beseUrl:process.env.GRIDSOME_API_URL,
-        imgUrl:process.env.IMG_URL
+        imgUrl:process.env.GRIDSOME_IMG_URL
       }
     }
   })
